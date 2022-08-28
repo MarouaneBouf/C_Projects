@@ -196,3 +196,15 @@ int menu(void)
     return choice;
 }
 
+/*
+Valgrind result:
+==17993== 
+==17993== HEAP SUMMARY:
+==17993==     in use at exit: 0 bytes in 0 blocks
+==17993==   total heap usage: 7 allocs, 7 frees, 6,672 bytes allocated
+==17993== 
+==17993== All heap blocks were freed -- no leaks are possible
+==17993== 
+==17993== For lists of detected and suppressed errors, rerun with: -s
+==17993== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+*/
